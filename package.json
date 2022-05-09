@@ -1,0 +1,34 @@
+{
+    "name": "blackandyellow",
+    "displayName": "Black and Yellow!",
+    "description": "A simple black and yellow theme for vscode!",
+    "version": "1.0.0",
+    "publisher": "marcusleonasharvey",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/flvffywvffy/blackandyellow-vscode"
+    },
+    "keywords": [
+        "black",
+        "yellow",
+        "theme",
+        "black and yellow",
+        "modern",
+        "dark"
+    ],
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Black and Yellow!",
+                "uiTheme": "vs-dark",
+                "path": "./themes/BlackAndYellow-color-theme.json"
+            }
+        ]
+    }
+}
